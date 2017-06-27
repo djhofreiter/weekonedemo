@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles/bootstrap.css">
+        <link rel="stylesheet" href="styles/bootstrapdemo.css">
+    </head>
+    <body>
+<!--Different kinds of text displays-->
+        <div class="jumbotron">this is text in a jumbotron</div>
+        <div class="well">A well</div>
+<!--Grid system, which MUST go inside a container. Max 12 columns-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">1.1</div>
+            <div class="col-md-6">1.2</div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">2.1</div>
+            <div class="col-md-6">2.2</div>
+        </div>
+    </div>
+
+<!--Shrinks parent page to half-size before dividing into 12 columns-->
+<div class="halfwidth">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">1.1</div>
+            <div class="col-md-6">1.2</div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">2.1</div>
+            <div class="col-md-6">2.2</div>
+        </div>
+    </div>
+</div>
+
+<!--Buttons-->
+    <div>
+        <input class="btn btn-success" type="button" value="Run">
+        <button class="btn btn-warning" >Button</button>
+        <div class="btn btn-info">Save</div>
+    </div>
+
+<!--Striped table from Bootstrap-->
+        <table class="table table-striped">
+            <tr>
+                <td>Col 1</td>
+                <td>Col 2</td>
+            </tr>
+            <tr>
+                <td>Row 2 Col1</td>
+                <td>Row 2 Col2</td>
+            </tr>
+        </table>
+    </body>
+</html>
