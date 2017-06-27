@@ -1,0 +1,48 @@
+div {
+    background-color: green;
+    height: 10%;
+    width: 1em;
+    border: 1px solid black
+}
+#id {   
+    background-color: burlywood;
+}
+.class{ 
+    background-color: greenyellow;
+}
+
+div.note{
+    background-color: red;
+}
+
+/* descendant */
+
+div p {
+    background-color: blue;
+}
+
+/* child elements */
+
+div > p {
+    background-color: plum;
+}
+
+/*pseudo selector */
+table:hover {
+    background-color: palevioletred;
+}
+
+table:active {
+
+}
+
+table:focus{
+
+}
+
+/*attribute*/
+div[class="note"] {
+    color:blue;
+}
+
+ul:nth
