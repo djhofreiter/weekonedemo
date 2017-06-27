@@ -10,3 +10,7 @@ border: 1em solid color black;
 .halfwidth {
     width: 50%;
 }
+
+body {
+    background-color: yellowgreen;
+}
